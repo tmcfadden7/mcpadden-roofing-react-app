@@ -58,3 +58,27 @@ table {
 input, select {
   vertical-align :middle;
 }
+/* CSS RESET END */
+/* CUSTOM CSS */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+}

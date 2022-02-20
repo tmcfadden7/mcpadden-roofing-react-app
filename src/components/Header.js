@@ -3,6 +3,7 @@ function Header() {
     return (
         <>
             <header>
+                <div className="container">
                 <nav>
                     <h1>McPadden Roofing Inc</h1>
                     <ul>
@@ -12,6 +13,7 @@ function Header() {
                         <li>Contact Us</li>
                     </ul>
                 </nav>
+                </div>
             </header>
         </>
     )
