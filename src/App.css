@@ -67,6 +67,10 @@ input, select {
     margin: auto;
 }
 
+nav .nav-icons {
+    display: none;
+}
+
 @media screen and ( min-width: 992px ) {
     nav {
         display: flex;
@@ -85,7 +89,10 @@ input, select {
     nav ul li {
         padding: 10px;
     }
+
+    
 }
+
 
 @media screen and ( max-width: 992px ) {
     nav {
@@ -109,5 +116,15 @@ input, select {
     
     nav ul li {
         padding: 10px;
+    }
+}
+
+@media screen and ( max-width: 768px  ) {
+    nav .nav-icons {
+        display: block;
+    }
+
+    nav .nav-items {
+        display: none;
     }
 }
