@@ -29,8 +29,24 @@ footer,header,hgroup,menu,nav,section {
   display: block;
 }
 
+h1 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
 nav ul {
   list-style :none;
+}
+
+nav ul a {
+    font-size: 1em;
 }
 
 blockquote, q {
@@ -73,6 +89,10 @@ nav .nav-icon {
     display: none;
 }
 
+nav {
+    color: #F2BE22;
+}
+
 .jumbotron {
     background-image: url('./images/roofing-jumbtron.jpg');
     background-repeat: no-repeat;
@@ -93,6 +113,7 @@ nav .nav-icon {
     nav ul {
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     
     nav ul li {
@@ -121,6 +142,7 @@ nav .nav-icon {
     nav ul {
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     
     nav ul li {
