@@ -10,14 +10,14 @@ function Header() {
                 <nav>
                     <h1>McPadden Roofing Inc</h1>
                     <ul>
-                        <li className='nav-item'>Home <FontAwesomeIcon icon={faHome} /></li>
-                        <li className='nav-icon'><FontAwesomeIcon icon={faHome} /></li>
-                        <li className='nav-item'>Services <FontAwesomeIcon icon={faWrench} /></li>
-                        <li className='nav-icon'><FontAwesomeIcon icon={faWrench} /></li>
-                        <li className='nav-item'>About Us <FontAwesomeIcon icon={faIdCard} /></li>
-                        <li className='nav-icon'><FontAwesomeIcon icon={faIdCard} /></li>
-                        <li className='nav-item'>Contact Us <FontAwesomeIcon icon={faMailBulk} /></li>
-                        <li className='nav-icon'><FontAwesomeIcon icon={faMailBulk} /></li>
+                        <li className='nav-item'><a href="#home">Home <FontAwesomeIcon icon={faHome} /></a></li>
+                        <li className='nav-icon'><a href="#home"><FontAwesomeIcon icon={faHome} /></a></li>
+                        <li className='nav-item'><a href="#home">Services <FontAwesomeIcon icon={faWrench} /></a></li>
+                        <li className='nav-icon'><a href="#home"><FontAwesomeIcon icon={faWrench} /></a></li>
+                        <li className='nav-item'><a href="#home">About Us <FontAwesomeIcon icon={faIdCard} /></a></li>
+                        <li className='nav-icon'><a href="#home"><FontAwesomeIcon icon={faIdCard} /></a></li>
+                        <li className='nav-item'><a href="#home">Contact Us <FontAwesomeIcon icon={faMailBulk} /></a></li>
+                        <li className='nav-icon'><a href="#home"><FontAwesomeIcon icon={faMailBulk} /></a></li>
                     </ul>
                 </nav>
                 </div>
