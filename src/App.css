@@ -67,7 +67,7 @@ input, select {
     margin: auto;
 }
 
-nav .nav-icons {
+nav .nav-icon {
     display: none;
 }
 
@@ -120,11 +120,11 @@ nav .nav-icons {
 }
 
 @media screen and ( max-width: 768px  ) {
-    nav .nav-icons {
+    nav .nav-icon {
         display: block;
     }
 
-    nav .nav-items {
+    nav .nav-item {
         display: none;
     }
 }

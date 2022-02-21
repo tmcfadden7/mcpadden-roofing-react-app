@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faIdCard, faMailBulk, faWrench } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
@@ -10,11 +10,14 @@ function Header() {
                 <nav>
                     <h1>McPadden Roofing Inc</h1>
                     <ul>
-                        <li className='nav-items'>Home </li>
-                        <li className='nav-items'>Services <FontAwesomeIcon icon={faWrench} /></li>
-                        <li className='nav-icons'><FontAwesomeIcon icon={faWrench} /></li>
-                        <li className='nav-items'>About Us</li>
-                        <li className='nav-items'>Contact Us</li>
+                        <li className='nav-item'>Home <FontAwesomeIcon icon={faHome} /></li>
+                        <li className='nav-icon'><FontAwesomeIcon icon={faHome} /></li>
+                        <li className='nav-item'>Services <FontAwesomeIcon icon={faWrench} /></li>
+                        <li className='nav-icon'><FontAwesomeIcon icon={faWrench} /></li>
+                        <li className='nav-item'>About Us <FontAwesomeIcon icon={faIdCard} /></li>
+                        <li className='nav-icon'><FontAwesomeIcon icon={faIdCard} /></li>
+                        <li className='nav-item'>Contact Us <FontAwesomeIcon icon={faMailBulk} /></li>
+                        <li className='nav-icon'><FontAwesomeIcon icon={faMailBulk} /></li>
                     </ul>
                 </nav>
                 </div>
