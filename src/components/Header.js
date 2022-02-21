@@ -5,7 +5,7 @@ import { faHome, faIdCard, faMailBulk, faWrench } from '@fortawesome/free-solid-
 function Header() {
     return (
         <>
-            <header>
+            <header className='jumbotron'>
                 <div className="container">
                 <nav>
                     <h1>McPadden Roofing Inc</h1>

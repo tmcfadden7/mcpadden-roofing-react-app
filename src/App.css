@@ -73,6 +73,13 @@ nav .nav-icon {
     display: none;
 }
 
+.jumbotron {
+    background-image: url('./images/roofing-jumbtron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
 @media screen and ( min-width: 992px ) {
     nav {
         display: flex;
