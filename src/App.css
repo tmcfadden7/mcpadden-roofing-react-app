@@ -120,8 +120,15 @@ nav .nav-icon {
 }
 
 @media screen and ( max-width: 768px  ) {
+    nav h1 {
+        flex: 0 0 27%;
+    }
     nav .nav-icon {
         display: block;
+    }
+
+    nav .nav-icon svg {
+        height: 1.5em;
     }
 
     nav .nav-item {
