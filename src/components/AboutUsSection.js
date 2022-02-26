@@ -7,7 +7,7 @@ function AboutUsSection() {
             <section className="about-section-container">
                 <div className="container">
                     <div>
-                        <img src={workerImg} alt="" />
+                        <img className='img-fluid' src={workerImg} alt="" />
                     </div>
                     <div>
                         <h2>Our Story</h2>
