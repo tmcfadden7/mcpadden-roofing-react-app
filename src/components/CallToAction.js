@@ -3,12 +3,12 @@ import React from 'react'
 export const CallToAction = () => {
   return (
     <>
-        <section className='contact-container'>
+        <section className='contact-container py-5'>
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <h2 className='h2'>Free Estimates</h2>
-                        <ul className='list-group'>
+                        <ul className='list-group mb-3'>
                             <li className='list-group-item'>Roof restoration</li>
                             <li className='list-group-item'>Gutter cleaning</li>
                             <li className='list-group-item'>Shingle replacement</li>

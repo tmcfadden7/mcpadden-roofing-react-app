@@ -4,7 +4,7 @@ function AboutUsSection() {
 
     return (
         <>
-            <section className="about-section-container">
+            <section className="about-section-container py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-6 col-md-4">
