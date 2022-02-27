@@ -8,7 +8,13 @@ export const CallToAction = () => {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <h2 className='h2'>Free Estimates</h2>
-                        <button>Call Us</button>
+                        <ul className='list-group'>
+                            <li className='list-group-item'>Roof restoration</li>
+                            <li className='list-group-item'>Gutter cleaning</li>
+                            <li className='list-group-item'>Shingle replacement</li>
+                            <li className='list-group-item'>Chimney repair</li>
+                        </ul>
+                        <button className="btn btn-primary">Call Us</button>
                     </div>
                     <div className="col-12 col-md-6">
                         <h2 className='h2'>Sign up for more info</h2>
