@@ -8,7 +8,7 @@ function Header() {
             <header className='jumbotron'>
                 <div className="container">
                 <nav>
-                    <h1>McPadden Roofing Inc</h1>
+                    <h1 className='h1'>McPadden Roofing Inc</h1>
                     <ul>
                         <li className='nav-item'>
                             <a href="#home">Home <FontAwesomeIcon icon={faHome} /></a>

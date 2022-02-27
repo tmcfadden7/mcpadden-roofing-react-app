@@ -1,16 +1,72 @@
 /* CSS RESET START */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
 b,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,38 +80,50 @@ body {
   line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 h1 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.17rem;
+  font-size: 1.17rem;
 }
 
 nav ul {
-  list-style :none;
+  list-style: none;
 }
 
 nav ul a {
-    font-size: 1em;
+  font-size: 1em;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -74,101 +142,89 @@ table {
   border-spacing: 0;
 }
 
-input, select {
-  vertical-align :middle;
+input,
+select {
+  vertical-align: middle;
 }
 /* CSS RESET END */
 /* CUSTOM CSS */
-.container {
-    max-width: 1140px;
-    width: 100%;
-    margin: auto;
-}
-
 nav .nav-icon {
-    display: none;
+  display: none;
 }
 
 nav {
-    color: #F2BE22;
+  color: #f2be22;
 }
 
 .jumbotron {
-    background-image: url('./images/roofing-jumbtron.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    min-height: 700px;
-    position: relative;
+  background-image: url("./images/roofing-jumbtron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 700px;
+  position: relative;
 }
 
-.contact-container .container {
+@media screen and (min-width: 992px) {
+  nav {
     display: flex;
     justify-content: space-around;
+  }
+
+  nav h1 {
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding: 10px;
+  }
 }
 
-@media screen and ( min-width: 992px ) {
-    nav {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    nav h1 {
-        padding: 10px;
-    }
-    
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    nav ul li {
-        padding: 10px;
-    }
+@media screen and (max-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  nav h1 {
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding: 10px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  nav h1 {
+    flex: 0 0 27%;
+  }
+  nav .nav-icon {
+    display: block;
+  }
 
-@media screen and ( max-width: 992px ) {
-    nav {
-        display: flex;
-        justify-content: space-around;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    
-    }
-    
-    nav h1 {
-        padding: 10px;
-    }
-    
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    nav ul li {
-        padding: 10px;
-    }
-}
+  nav .nav-icon svg {
+    height: 1.5em;
+  }
 
-@media screen and ( max-width: 768px  ) {
-    nav h1 {
-        flex: 0 0 27%;
-    }
-    nav .nav-icon {
-        display: block;
-    }
-
-    nav .nav-icon svg {
-        height: 1.5em;
-    }
-
-    nav .nav-item {
-        display: none;
-    }
+  nav .nav-item {
+    display: none;
+  }
 }
