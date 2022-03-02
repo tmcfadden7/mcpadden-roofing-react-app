@@ -30,10 +30,11 @@ const Footer = () => {
 						</ul>
 					</nav>
 					<div className='row'>
-						<div className='col-12 col-md-6'>
-							<h1>McPadden Roofing Inc</h1>
+						<div className='col-12'>
+							<p>
+								&copy; 2022 <span>McPadden Roofing Inc</span>
+							</p>
 						</div>
-						<div className='col-12 col-md-6'></div>
 					</div>
 				</div>
 			</footer>
