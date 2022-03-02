@@ -11,7 +11,7 @@ const Footer = () => {
 		<>
 			<footer className='p-4'>
 				<div className='container'>
-					<nav>
+					<nav className='p-2'>
 						<ul className='d-flex'>
 							<li>
 								<a href='#home'>
@@ -29,7 +29,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</nav>
-					<div className='row'>
+					<div className='row text-center p-2'>
 						<div className='col-12'>
 							<p>
 								&copy; 2022 <span>McPadden Roofing Inc</span>
