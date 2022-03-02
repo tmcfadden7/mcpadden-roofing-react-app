@@ -67,17 +67,17 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 body {
-  line-height: 1;
+	line-height: 1;
 }
 
 article,
@@ -91,140 +91,140 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 
 h1 {
-  font-size: 1.7rem;
+	font-size: 1.7rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.17rem;
+	font-size: 1.17rem;
 }
 
 nav ul {
-  list-style: none;
+	list-style: none;
 }
 
 nav ul a {
-  font-size: 1em;
+	font-size: 1em;
 }
 
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: '';
+	content: none;
 }
 
 a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  text-decoration: none;
-  color: inherit;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+	color: inherit;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 input,
 select {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 /* CSS RESET END */
 /* CUSTOM CSS */
-nav .nav-icon {
-  display: none;
+header nav .nav-icon {
+	display: none;
 }
 
-nav {
-  color: #f2be22;
+header nav {
+	color: #f2be22;
 }
 
 .jumbotron {
-  background-image: url("./images/roofing-jumbtron.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  min-height: 700px;
-  position: relative;
+	background-image: url('./images/roofing-jumbtron.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	min-height: 700px;
+	position: relative;
 }
 
 @media screen and (min-width: 992px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-  }
+	nav {
+		display: flex;
+		justify-content: space-around;
+	}
 
-  nav h1 {
-    padding: 10px;
-  }
+	nav h1 {
+		padding: 10px;
+	}
 
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+	nav ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
 
-  nav ul li {
-    padding: 10px;
-  }
+	nav ul li {
+		padding: 10px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+	nav {
+		display: flex;
+		justify-content: space-around;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
 
-  nav h1 {
-    padding: 10px;
-  }
+	nav h1 {
+		padding: 10px;
+	}
 
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+	nav ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
 
-  nav ul li {
-    padding: 10px;
-  }
+	nav ul li {
+		padding: 10px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  nav h1 {
-    flex: 0 0 27%;
-  }
-  nav .nav-icon {
-    display: block;
-  }
+	nav h1 {
+		flex: 0 0 27%;
+	}
+	nav .nav-icon {
+		display: block;
+	}
 
-  nav .nav-icon svg {
-    height: 1.5em;
-  }
+	nav .nav-icon svg {
+		height: 1.5em;
+	}
 
-  nav .nav-item {
-    display: none;
-  }
+	nav .nav-item {
+		display: none;
+	}
 }
