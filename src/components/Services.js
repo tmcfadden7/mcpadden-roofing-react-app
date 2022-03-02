@@ -4,31 +4,11 @@ const Services = () => {
 			<section className='p-4'>
 				<div className='container'>
 					<h2 className='h2 text-center d-block d-md-none'>Services</h2>
-					<div className='row'>
-						<div className='col-12 col-md-4 border py-3'>
-							<h2 className='h2'>Call or Email us today!</h2>
-							<form>
-								<div className='mb-3'>
-									<label htmlFor='exampleInputEmail1' className='form-label'>
-										Email address
-									</label>
-									<input
-										type='email'
-										className='form-control'
-										id='exampleInputEmail1'
-										aria-describedby='emailHelp'
-									/>
-									<div id='emailHelp' className='form-text'>
-										We'll never share your email with anyone else.
-									</div>
-								</div>
-								<button type='submit' className='btn btn-primary'>
-									Submit
-								</button>
-							</form>
-						</div>
+					<div className='row align-items-center'>
 						<div className='col-12 col-md-8'>
-							<h2 className='h2 text-center d-none d-md-block'>Services</h2>
+							<h2 className='h2 text-center d-none d-md-block mb-3'>
+								Services
+							</h2>
 							<div class='accordion' id='accordionServices'>
 								<div class='accordion-item'>
 									<h2 class='accordion-header' id='headingOne'>
@@ -171,6 +151,33 @@ const Services = () => {
 									</div>
 								</div>
 							</div>
+						</div>
+						<div className='col-12 col-md-4 py-3'>
+							<h3 className='h3 text-center'>Call us or sign up today!</h3>
+							<p className='lead text-center my-4'>
+								555-555-5555
+								<br />
+								We service all of NY and FL
+							</p>
+							<form>
+								<div className='mb-3'>
+									<label htmlFor='exampleInputEmail1' className='form-label'>
+										Email address
+									</label>
+									<input
+										type='email'
+										className='form-control'
+										id='exampleInputEmail1'
+										aria-describedby='emailHelp'
+									/>
+									<div id='emailHelp' className='form-text'>
+										We'll never share your email with anyone else.
+									</div>
+								</div>
+								<button type='submit' className='btn btn-primary'>
+									Submit
+								</button>
+							</form>
 						</div>
 					</div>
 				</div>
