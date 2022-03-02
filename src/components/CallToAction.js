@@ -44,3 +44,5 @@ export const CallToAction = () => {
 		</>
 	);
 };
+
+export default CallToAction;
