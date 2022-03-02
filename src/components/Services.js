@@ -1,24 +1,25 @@
 const Services = () => {
 	return (
 		<>
-			<div class='accordion' id='accordionPanelsStayOpenExample'>
+			<div class='accordion' id='accordionExample'>
 				<div class='accordion-item'>
-					<h2 class='accordion-header' id='panelsStayOpen-headingOne'>
+					<h2 class='accordion-header' id='headingOne'>
 						<button
 							class='accordion-button'
 							type='button'
 							data-bs-toggle='collapse'
-							data-bs-target='#panelsStayOpen-collapseOne'
+							data-bs-target='#collapseOne'
 							aria-expanded='true'
-							aria-controls='panelsStayOpen-collapseOne'
+							aria-controls='collapseOne'
 						>
 							Accordion Item #1
 						</button>
 					</h2>
 					<div
-						id='panelsStayOpen-collapseOne'
+						id='collapseOne'
 						class='accordion-collapse collapse show'
-						aria-labelledby='panelsStayOpen-headingOne'
+						aria-labelledby='headingOne'
+						data-bs-parent='#accordionExample'
 					>
 						<div class='accordion-body'>
 							<strong>This is the first item's accordion body.</strong> It is
@@ -33,22 +34,23 @@ const Services = () => {
 					</div>
 				</div>
 				<div class='accordion-item'>
-					<h2 class='accordion-header' id='panelsStayOpen-headingTwo'>
+					<h2 class='accordion-header' id='headingTwo'>
 						<button
 							class='accordion-button collapsed'
 							type='button'
 							data-bs-toggle='collapse'
-							data-bs-target='#panelsStayOpen-collapseTwo'
+							data-bs-target='#collapseTwo'
 							aria-expanded='false'
-							aria-controls='panelsStayOpen-collapseTwo'
+							aria-controls='collapseTwo'
 						>
 							Accordion Item #2
 						</button>
 					</h2>
 					<div
-						id='panelsStayOpen-collapseTwo'
+						id='collapseTwo'
 						class='accordion-collapse collapse'
-						aria-labelledby='panelsStayOpen-headingTwo'
+						aria-labelledby='headingTwo'
+						data-bs-parent='#accordionExample'
 					>
 						<div class='accordion-body'>
 							<strong>This is the second item's accordion body.</strong> It is
@@ -63,22 +65,23 @@ const Services = () => {
 					</div>
 				</div>
 				<div class='accordion-item'>
-					<h2 class='accordion-header' id='panelsStayOpen-headingThree'>
+					<h2 class='accordion-header' id='headingThree'>
 						<button
 							class='accordion-button collapsed'
 							type='button'
 							data-bs-toggle='collapse'
-							data-bs-target='#panelsStayOpen-collapseThree'
+							data-bs-target='#collapseThree'
 							aria-expanded='false'
-							aria-controls='panelsStayOpen-collapseThree'
+							aria-controls='collapseThree'
 						>
 							Accordion Item #3
 						</button>
 					</h2>
 					<div
-						id='panelsStayOpen-collapseThree'
+						id='collapseThree'
 						class='accordion-collapse collapse'
-						aria-labelledby='panelsStayOpen-headingThree'
+						aria-labelledby='headingThree'
+						data-bs-parent='#accordionExample'
 					>
 						<div class='accordion-body'>
 							<strong>This is the third item's accordion body.</strong> It is

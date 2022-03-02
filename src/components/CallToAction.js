@@ -19,21 +19,21 @@ export const CallToAction = () => {
 						<div className='col-12 col-md-6'>
 							<h2 className='h2 mb-3'>Sign up for more info</h2>
 							<form>
-								<div class='mb-3'>
-									<label for='exampleInputEmail1' class='form-label'>
+								<div className='mb-3'>
+									<label htmlFor='exampleInputEmail1' className='form-label'>
 										Email address
 									</label>
 									<input
 										type='email'
-										class='form-control'
+										className='form-control'
 										id='exampleInputEmail1'
 										aria-describedby='emailHelp'
 									/>
-									<div id='emailHelp' class='form-text'>
+									<div id='emailHelp' className='form-text'>
 										We'll never share your email with anyone else.
 									</div>
 								</div>
-								<button type='submit' class='btn btn-primary'>
+								<button type='submit' className='btn btn-primary'>
 									Submit
 								</button>
 							</form>
