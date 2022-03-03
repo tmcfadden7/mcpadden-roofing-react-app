@@ -166,6 +166,16 @@ header nav {
 	position: relative;
 }
 
+.contact-container {
+	background-color: #222;
+	color: #fff;
+}
+
+.contact-container button {
+	background-color: #355e3b;
+	color: #fff;
+}
+
 @media screen and (min-width: 992px) {
 	nav {
 		display: flex;
