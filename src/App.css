@@ -172,9 +172,15 @@ header nav {
 	color: #fff;
 }
 
-.contact-container button {
+.contact-container button,
+.services-container button {
 	background-color: #355e3b;
 	color: #fff;
+}
+
+.services-container {
+	background-color: #d3d3d3;
+	color: #355e3b;
 }
 
 @media screen and (min-width: 992px) {
