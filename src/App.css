@@ -191,6 +191,11 @@ header nav {
 	color: #355e3b;
 }
 
+.footer-container {
+	background-color: #355e3b;
+	color: #fff;
+}
+
 @media screen and (min-width: 992px) {
 	nav {
 		display: flex;
