@@ -9,7 +9,7 @@ import {
 const Footer = () => {
 	return (
 		<>
-			<footer className='footer-container p-3'>
+			<footer className='footer-container  px-1 py-5 p-sm-3'>
 				<div className='container'>
 					<nav className='p-2'>
 						<ul className='d-flex justify-content-around align-items-center'>

@@ -3,7 +3,7 @@ import React from 'react';
 export const CallToAction = () => {
 	return (
 		<>
-			<section className='contact-container p-5'>
+			<section className='contact-container px-1 py-5 p-sm-5'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 col-md-6'>

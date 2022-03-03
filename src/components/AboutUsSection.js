@@ -3,7 +3,7 @@ import workerImg from '../images/construction-workers.jpg';
 function AboutUsSection() {
 	return (
 		<>
-			<section className='about-section-container p-5'>
+			<section className='about-section-container px-1 py-5 p-sm-5'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-6 col-md-4'>

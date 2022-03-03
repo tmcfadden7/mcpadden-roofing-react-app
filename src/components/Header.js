@@ -19,7 +19,7 @@ function Header() {
 									<strong>Serving all of NY/FL</strong>
 								</p>
 								<p className='my-2'>
-									<strong>Call now! 555-555-5555</strong>
+									<strong>Call 555-555-5555</strong>
 								</p>
 							</div>
 						</div>
