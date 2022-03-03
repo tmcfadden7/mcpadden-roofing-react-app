@@ -149,9 +149,6 @@ select {
 }
 /* CSS RESET END */
 /* CUSTOM CSS */
-header nav .nav-icon {
-	display: none;
-}
 
 header nav {
 	color: #f2be22;
@@ -194,67 +191,4 @@ header nav {
 .footer-container {
 	background-color: #355e3b;
 	color: #fff;
-}
-
-@media screen and (min-width: 992px) {
-	nav {
-		display: flex;
-		justify-content: space-around;
-	}
-
-	nav h1 {
-		padding: 10px;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	nav ul li {
-		padding: 10px;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	header nav {
-		display: flex;
-		justify-content: space-around;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-
-	nav h1 {
-		padding: 10px;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	nav ul li {
-		padding: 10px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	nav h1 {
-		flex: 0 0 27%;
-	}
-	nav .nav-icon {
-		display: block;
-	}
-
-	nav .nav-icon svg {
-		height: 1.5em;
-	}
-
-	nav .nav-item {
-		display: none;
-	}
 }
