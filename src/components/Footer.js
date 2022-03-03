@@ -12,7 +12,7 @@ const Footer = () => {
 			<footer className='footer-container p-3'>
 				<div className='container'>
 					<nav className='p-2'>
-						<ul className='d-flex'>
+						<ul className='d-flex justify-content-around align-items-center'>
 							<li>
 								<a href='#home'>
 									Home <FontAwesomeIcon icon={faHome} />
