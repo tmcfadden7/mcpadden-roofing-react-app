@@ -176,6 +176,14 @@ header nav {
 .services-container button {
 	background-color: #355e3b;
 	color: #fff;
+	border: 1px solid #fff;
+}
+
+.contact-container button:hover,
+.services-container button:hover {
+	background-color: #d3d3d3;
+	color: #355e3b;
+	border: 1px solid #355e3b;
 }
 
 .services-container {
