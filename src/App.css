@@ -167,6 +167,30 @@ header nav {
 .contact-container {
 	background-color: #222;
 	color: #fff;
+	/* animation-name: contact;
+	animation-duration: 1s; */
+}
+/* @keyframes contact {
+	0% {
+		width: 33%;
+		opacity: 0;
+	}
+	50% {
+		width: 66%;
+		opacity: 0.5;
+	}
+	100% {
+		width: 100%;
+		opacity: 1;
+	}
+} */
+
+.contact-container .neg-margin {
+	margin-top: -100px;
+	background-color: #355e3b;
+	z-index: 1;
+	padding: 30px;
+	border-radius: 5%;
 }
 
 .contact-container button,

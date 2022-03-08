@@ -5,8 +5,8 @@ export const CallToAction = () => {
 		<>
 			<section className='contact-container px-1 py-5 p-sm-5'>
 				<div className='container'>
-					<div className='row'>
-						<div className='col-12 col-md-6'>
+					<div className='row justify-content-evenly'>
+						<div className='col-12 col-md-5 neg-margin'>
 							<h2 className='h2'>Free Estimates</h2>
 							<ul className='list-group my-3'>
 								<li className='list-group-item'>Roof restoration</li>
@@ -16,7 +16,7 @@ export const CallToAction = () => {
 							</ul>
 							<button className='btn'>Call Us</button>
 						</div>
-						<div className='col-12 col-md-6'>
+						<div className='col-12 col-md-5 neg-margin'>
 							<h2 className='h2 mb-3'>Sign up for more info</h2>
 							<form>
 								<div className='mb-3'>
@@ -29,7 +29,7 @@ export const CallToAction = () => {
 										id='exampleInputEmail1'
 										aria-describedby='emailHelp'
 									/>
-									<div id='emailHelp' className='form-text'>
+									<div id='emailHelp' className='form-text text-white'>
 										We'll never share your email with anyone else.
 									</div>
 								</div>
