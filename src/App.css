@@ -77,6 +77,7 @@ video {
 }
 
 body {
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	line-height: 1;
 }
 
@@ -148,9 +149,6 @@ select {
 }
 /* CSS RESET END */
 /* CUSTOM CSS */
-header nav .nav-icon {
-	display: none;
-}
 
 header nav {
 	color: #f2be22;
@@ -166,65 +164,31 @@ header nav {
 	position: relative;
 }
 
-@media screen and (min-width: 992px) {
-	nav {
-		display: flex;
-		justify-content: space-around;
-	}
-
-	nav h1 {
-		padding: 10px;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	nav ul li {
-		padding: 10px;
-	}
+.contact-container {
+	background-color: #222;
+	color: #fff;
 }
 
-@media screen and (max-width: 992px) {
-	header nav {
-		display: flex;
-		justify-content: space-around;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-
-	nav h1 {
-		padding: 10px;
-	}
-
-	nav ul {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	nav ul li {
-		padding: 10px;
-	}
+.contact-container button,
+.services-container button {
+	background-color: #355e3b;
+	color: #fff;
+	border: 1px solid #fff;
 }
 
-@media screen and (max-width: 768px) {
-	nav h1 {
-		flex: 0 0 27%;
-	}
-	nav .nav-icon {
-		display: block;
-	}
+.contact-container button:hover,
+.services-container button:hover {
+	background-color: #d3d3d3;
+	color: #355e3b;
+	border: 1px solid #355e3b;
+}
 
-	nav .nav-icon svg {
-		height: 1.5em;
-	}
+.services-container {
+	background-color: #d3d3d3;
+	color: #355e3b;
+}
 
-	nav .nav-item {
-		display: none;
-	}
+.footer-container {
+	background-color: #355e3b;
+	color: #fff;
 }

@@ -1,7 +1,7 @@
 const Services = () => {
 	return (
 		<>
-			<section className='p-4'>
+			<section className='services-container px-1 py-5 p-sm-5'>
 				<div className='container'>
 					<h2 className='h2 text-center d-block d-md-none'>Services</h2>
 					<div className='row align-items-center'>
@@ -174,7 +174,7 @@ const Services = () => {
 										We'll never share your email with anyone else.
 									</div>
 								</div>
-								<button type='submit' className='btn btn-primary'>
+								<button type='submit' className='btn'>
 									Submit
 								</button>
 							</form>

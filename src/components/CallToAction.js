@@ -3,7 +3,7 @@ import React from 'react';
 export const CallToAction = () => {
 	return (
 		<>
-			<section className='contact-container p-5'>
+			<section className='contact-container px-1 py-5 p-sm-5'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 col-md-6'>
@@ -14,7 +14,7 @@ export const CallToAction = () => {
 								<li className='list-group-item'>Shingle replacement</li>
 								<li className='list-group-item'>Chimney repair</li>
 							</ul>
-							<button className='btn btn-primary'>Call Us</button>
+							<button className='btn'>Call Us</button>
 						</div>
 						<div className='col-12 col-md-6'>
 							<h2 className='h2 mb-3'>Sign up for more info</h2>
@@ -33,7 +33,7 @@ export const CallToAction = () => {
 										We'll never share your email with anyone else.
 									</div>
 								</div>
-								<button type='submit' className='btn btn-primary'>
+								<button type='submit' className='btn'>
 									Submit
 								</button>
 							</form>
