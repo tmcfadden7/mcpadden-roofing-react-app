@@ -153,7 +153,11 @@ select {
 header {
 	background-color: #355e3b;
 }
-header nav {
+header #top-header {
+	background-color: #222;
+}
+header #top-header h1 {
+	font-size: 1.7em;
 	color: #f2be22;
 }
 
