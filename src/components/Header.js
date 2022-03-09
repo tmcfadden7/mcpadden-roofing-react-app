@@ -72,9 +72,6 @@ function Header() {
 					</nav>
 				</div>
 			</header>
-			<section className='jumbotron'>
-				<div className='container'></div>
-			</section>
 		</>
 	);
 }

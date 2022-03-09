@@ -15,7 +15,19 @@ function AboutUsSection() {
 						</div>
 						<div className='col-12 col-md-8'>
 							<h2 className='h2 mb-3'>Our Story</h2>
-							<p>
+							<p className='lead'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti, culpa recusandae natus tenetur quidem harum vitae odit
+								sequi, molestias ex consequuntur beatae suscipit doloremque,
+								perspiciatis nesciunt iusto unde. Eaque, libero?
+							</p>
+							<p className='lead'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Deleniti, culpa recusandae natus tenetur quidem harum vitae odit
+								sequi, molestias ex consequuntur beatae suscipit doloremque,
+								perspiciatis nesciunt iusto unde. Eaque, libero?
+							</p>
+							<p className='lead'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Deleniti, culpa recusandae natus tenetur quidem harum vitae odit
 								sequi, molestias ex consequuntur beatae suscipit doloremque,

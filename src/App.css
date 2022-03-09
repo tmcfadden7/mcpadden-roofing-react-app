@@ -107,6 +107,10 @@ h3 {
 	font-size: 1.5rem;
 }
 
+p {
+	line-height: 1.6em;
+}
+
 nav ul {
 	list-style: none;
 }
@@ -229,6 +233,16 @@ header nav a:hover {
 	background-color: #d3d3d3;
 	color: #355e3b;
 	border: 1px solid #355e3b;
+}
+
+.parallax-jumbo {
+	min-height: 600px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .services-container {
