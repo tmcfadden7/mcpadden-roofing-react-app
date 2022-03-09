@@ -157,6 +157,22 @@ header nav {
 	color: #f2be22;
 }
 
+header nav a:hover {
+	color: #f2be22;
+	animation-name: bigger;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes bigger {
+	0% {
+		font-size: 1em;
+	}
+	100% {
+		font-size: 1.5em;
+	}
+}
+
 .jumbotron {
 	background-image: url('./images/roofs.jpg');
 	background-repeat: no-repeat;
