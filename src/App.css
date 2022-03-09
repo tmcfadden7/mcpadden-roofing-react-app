@@ -150,12 +150,35 @@ select {
 /* CSS RESET END */
 /* CUSTOM CSS */
 
-header nav {
+header {
+	background-color: #355e3b;
+}
+header #top-header {
+	background-color: #222;
+}
+header #top-header h1 {
+	font-size: 1.7em;
 	color: #f2be22;
 }
 
+header nav a:hover {
+	color: #f2be22;
+	animation-name: bigger;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes bigger {
+	0% {
+		font-size: 1em;
+	}
+	100% {
+		font-size: 1.5em;
+	}
+}
+
 .jumbotron {
-	background-image: url('./images/roofing-jumbtron.jpg');
+	background-image: url('./images/roofs.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -167,6 +190,31 @@ header nav {
 .contact-container {
 	background-color: #222;
 	color: #fff;
+	/* animation-name: contact;
+	animation-duration: 1s; */
+}
+/* @keyframes contact {
+	0% {
+		width: 33%;
+		opacity: 0;
+	}
+	50% {
+		width: 66%;
+		opacity: 0.5;
+	}
+	100% {
+		width: 100%;
+		opacity: 1;
+	}
+} */
+
+.contact-container .neg-margin,
+.services-container .neg-margin {
+	margin-top: -100px;
+	background-color: #355e3b;
+	z-index: 1;
+	padding: 30px;
+	border-radius: 5%;
 }
 
 .contact-container button,
@@ -186,6 +234,15 @@ header nav {
 .services-container {
 	background-color: #d3d3d3;
 	color: #355e3b;
+}
+
+.services-container .accordion-button {
+	background-color: #355e3b;
+	color: #fff;
+}
+
+.accordion-button::after {
+	color: #fff;
 }
 
 .footer-container {

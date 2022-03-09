@@ -9,22 +9,25 @@ import {
 function Header() {
 	return (
 		<>
-			<header className='jumbotron'>
-				<div className='container'>
-					<nav>
+			<header>
+				<section id='top-header' className='py-3'>
+					<div className='container'>
 						<div className='d-flex justify-content-around align-items-center'>
-							<h1 className='h1 p-2'>McPadden Roofing Inc</h1>
-							<div>
-								<p>
+							<h1 className='text-center'>McPadden Roofing</h1>
+							<div className='text-white'>
+								<p className='lead'>
 									<strong>Serving all of NY/FL</strong>
 								</p>
-								<p className='my-2'>
+								<p className='lead my-2'>
 									<strong>Call 555-555-5555</strong>
 								</p>
 							</div>
 						</div>
-
-						<ul className='d-flex justify-content-around align-items-center'>
+					</div>
+				</section>
+				<div className='container'>
+					<nav>
+						<ul className='d-flex justify-content-around align-items-center text-white'>
 							<li className='nav-item d-none d-md-block p-3'>
 								<a href='#home'>
 									Home <FontAwesomeIcon icon={faHome} />
@@ -69,6 +72,9 @@ function Header() {
 					</nav>
 				</div>
 			</header>
+			<section className='jumbotron'>
+				<div className='container'></div>
+			</section>
 		</>
 	);
 }
