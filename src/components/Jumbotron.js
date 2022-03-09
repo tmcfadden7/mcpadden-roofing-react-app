@@ -1,11 +1,10 @@
 import React from 'react';
 
-export const Jumbotron = ({ bgImg, bgImgId2 }) => {
+export const Jumbotron = ({ bgImg, bgImgClass }) => {
 	return (
 		<>
 			<section
-				className='jumbotron'
-				id={bgImgId2}
+				className={`jumbotron ${bgImgClass}`}
 				style={{ backgroundImage: `url(${bgImg})` }}
 			></section>
 		</>

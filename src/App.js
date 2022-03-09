@@ -14,7 +14,7 @@ function App() {
 			<Header />
 			<Jumbotron bgImg={bgImg1} />
 			<CallToAction />
-			<Jumbotron bgImg={bgImg2} bgImgId2={'parallax-jumbo'} />
+			<Jumbotron bgImg={bgImg2} bgImgClass={'parallax-jumbo'} />
 			<AboutUsSection />
 			<Services />
 			<Footer />
