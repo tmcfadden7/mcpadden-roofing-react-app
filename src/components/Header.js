@@ -12,7 +12,7 @@ function Header() {
 			<header className='pt-3'>
 				<nav>
 					<div className='d-flex justify-content-around align-items-center'>
-						<h1 className='p-2'>McPadden Roofing Inc</h1>
+						<h1 className='p-2 text-center'>McPadden Roofing</h1>
 						<div className='text-white'>
 							<p className='lead'>
 								<strong>Serving all of NY/FL</strong>
