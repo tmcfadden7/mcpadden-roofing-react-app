@@ -9,12 +9,13 @@ import bgImg1 from './images/roofs.jpg';
 import bgImg2 from './images/roofs4.jpg';
 
 function App() {
+	const bgImgClass = 'parallax-jumbo';
 	return (
 		<>
 			<Header />
 			<Jumbotron bgImg={bgImg1} />
 			<CallToAction />
-			<Jumbotron bgImg={bgImg2} bgImgClass={'parallax-jumbo'} />
+			<Jumbotron bgImg={bgImg2} bgImgClass={bgImgClass} />
 			<AboutUsSection />
 			<Services />
 			<Footer />
