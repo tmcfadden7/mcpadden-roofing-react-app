@@ -25,6 +25,8 @@ function Header() {
 						</div>
 					</div>
 				</section>
+			</header>
+			<section className='header-nav-menu position-sticky'>
 				<div className='container'>
 					<nav>
 						<ul className='d-flex justify-content-around align-items-center text-white'>
@@ -71,7 +73,7 @@ function Header() {
 						</ul>
 					</nav>
 				</div>
-			</header>
+			</section>
 		</>
 	);
 }

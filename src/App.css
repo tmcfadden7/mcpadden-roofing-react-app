@@ -154,8 +154,12 @@ select {
 /* CSS RESET END */
 /* CUSTOM CSS */
 
-header {
+.header-nav-menu {
 	background-color: #355e3b;
+
+	z-index: 1;
+	width: 100%;
+	top: 0px;
 }
 header #top-header {
 	background-color: #222;
