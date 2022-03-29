@@ -156,8 +156,7 @@ select {
 
 .header-nav-menu {
 	background-color: #355e3b;
-
-	z-index: 1;
+	z-index: 2;
 	width: 100%;
 	top: 0px;
 }
